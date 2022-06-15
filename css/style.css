@@ -17,7 +17,7 @@ header nav .nav-right{
     display: flex;
        
 }
-ul {
+ul.nav-right {
     list-style: none;
     
     }
@@ -238,17 +238,59 @@ li.line {
     line-height: 40px;
     
 }
+section.formulaire {
+    height: 50vh;
+    background-color:#00b29d;
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+form {
+    
+    width: 1000px;
+    background-color: rgba(0, 140, 135, 0.4);
+    padding: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+form h1 {
+    
+    justify-content: center;
+
+}
+input {
+    display: block;
+    margin: 10px auto;
+    width: 450px;
+    height: 50px;
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
 
 footer {
     background-color: #1f1f1f;
     display: block;
     padding: 50px;
     color: #ffffff;
+    justify-items: center ;
 }
 footer h1 {
     color: #ffffff;
     font-size: 69px;
     font-weight: 800;
+    text-align: center;
+    
+}
+footer p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
     
 }
