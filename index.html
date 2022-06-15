@@ -5,46 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon site Gomycode</title>
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Travail</a></li>
-                <li><a href="#">CV</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <nav class="navigation">
+            <div>
+                <h1 class="logo">  <a class="logo" href=""> MyLoogo</a></h1>
+            </div>
+            <div>
+                <ul class="nav-right">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Travail</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </nav>
+        <section class="infos">
+            <div class="gauche">
+                <h1>Here is my first website ... <br> I am a new student. </h1>
+                <p>With the Gomycode Courses i learned <br>
+                    to code in Html, csss and soon i will start Javascript.
+                    </p>
+                    <div class="button1">
+                        <button  class="button">Je m'abonne</button>
+                        <button  class="button3">Contact-moi</button>
+                    </div>
+                    
+            </div>
+            <div class="droite">
+                <img src="image/mario.png" alt="">
+            </div>
+            <div class="droite">
+                <img src="" alt="">
+            </div>
+
+        </section>
     </header>
     <main>
-        <section>
-        <form action="">
-         </form>
-         <video controls >
-            <source src="video/v1.mp4" type="video/mp4">
-         </video>
-         </section>
-         <section>
-             <h1>À Propos</h1>
-             <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation</P>
-         </section>
-         <section>
-            <h1>Travail</h1>
-            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation</P>
+        <section class="description">
+            <div class="row">
+                <h1 class="titr">À Propos de nous </h1>
+            </div>
+            <div class="row1">
+                
+                    <div class="colom">
+                        <h2>UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <a href="#">En savoir plus ></a>
+                    </div>
+            
+                    <div class="colom">
+                        <h2>Motion Design</h2>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <a href="#">En savoir plus ></a>
+                    </div>
+                    </div>
+            
+            
+                    <div class="colom">
+                    <h2>Graphic Design</h2>
+                        <p>
+                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <a href="#">En savoir plus ></a>
+                
+            </div>
+
         </section>
-        <section>
-            <h1>CV</h1>
-            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation</P>
+        <section class="nous">
+            <div class="super-mario-sect2">
+                <img src="image/2.png" alt="ceci est une image de mario">
+            </div>
+            <div class="description-sect2">
+                <h3>What we do ?</h3>
+            <h1> Notre travail</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    <br>nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            
+
         </section>
+        <section class="cv">
+            <div class="description-sect3">
+                <h3>Mon cv</h3>
+            <h1> What we can do ?</h1>
+                <ul>
+                    <li class="line">Motion Design</li>
+                    <li class="line">Graphic Design</li>
+                    <li class="line">Developpement web</li>
+                    <li class="line">UI Design</li>
+                    <li class="line">Webdesign</li>
+                </ul>
+            </div>
+            <div class="super-mario-sect3">
+                <img src="image/who.png" alt="ceci est une image de mario">
+            </div>
+
+        </section>
+        
         <section>
             <h1>Contact</h1>
             <form action="Me">Mail
@@ -60,10 +137,11 @@
     </main>  
     <footer> 
         <h1>Ceci est mon pied de page</h1>
-        <a href="#">Lien 1</a>
-        <a href="#">Lien 2</a>
-        <a href="#">Lien 3</a>
-    
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            <br>nisi ut aliquip ex ea commodo consequat.
+        </p>
     </footer>
 </body>
 
